@@ -12,6 +12,9 @@ def calc(year):
   else:
     return False
 
+
+# Old code for getting user input
+'''
 # Continue to query for a number until one is given.
 while True:
   year = input("Enter a year: ")
@@ -27,3 +30,4 @@ if calc(year):
   print(year, "is a leap year.")
 else:
   print(year, "is NOT a leap year.")
+'''
